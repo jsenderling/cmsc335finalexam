@@ -3,7 +3,7 @@ require("dotenv").config({ path: path.resolve(__dirname, '.env') });
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
-const portNumber = process.argv[2];
+const portNumber = 5000;
 const dbUtils = require("./databaseFunctions.js");
 
 const userName = process.env.MONGO_DB_USERNAME;
