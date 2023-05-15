@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>End Membership</title>
+    <link rel="stylesheet" href="fitnessApp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1>End Membership</h1>
+
+    <form action="http://localhost:<%= port %>/removeMember" method="post">
+        Type in name and email to end the membership. <br><br>
+
+        <div class="nameEmail">
+            <span><strong>Name:</strong> <input name="name" type="text" size="25" required></span><br><br>
+            <strong>Email:</strong> <input placeholder="yourexample@gmail.com" name="email" type="email" size="50">
+        </div>
+
+        <div id="display">
+            <%- name %>
+            <%- email %>
+        </div>
+
+        <br>
+
+        <button class="button" type="reset"><span>Reset</span></button>
+        <button class="button" type="submit"><span>Submit</span></button>
+        <button class="button" onclick="window.location.href = '/';"><span>Home</span></button>
+    </form>
+
+	<hr>
+    <br>
+</body>
+
+</html>

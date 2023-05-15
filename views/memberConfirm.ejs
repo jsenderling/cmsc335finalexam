@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Application Confirmation</title>
+    <link rel="stylesheet" href="fitnessApp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1>Member Information</h1>
+
+    <div>
+        <strong><span class="confirmHeader">General Information</span></strong><br>
+		<strong>Name: </strong><%- name %><br>
+        <strong>Phone: </strong><%- phone %><br>
+		<strong>Email Address: </strong><%- email %>
+        <hr>
+
+        <strong><span class="confirmHeader">Vital Characteristics</span></strong><br>
+        <strong>Gender: </strong><%- gender %><br>
+        <strong>Age: </strong><%- age %><br>
+        <strong>Height: </strong><%- height %> <em> cm</em><br>
+        <strong>Weight: </strong><%- weight %> <em> kg</em>
+        <hr>
+		
+        <strong><span class="confirmHeader">Exercise Levels</span></strong><br>
+        <strong>Activity Level: </strong><%- activitylevel %><br><br>
+	</div>
+
+    <button class="button" onclick="window.location.href = '/';"><span>Home</span></button>
+    <hr>    
+</body>
+
+</html>
