@@ -8,8 +8,8 @@ the following operations: search for member data, end their membership, calculat
 ideal weight. All member data is stored in a MongoDB collection.
 
 Notes:
-- use node fitnessAppServer.js PORT_NUMBER_HERE to start server OR
-- render URL: https://cmsc335finalexam-jsenderling.onrender.com
+- Cyclic URL: https://rich-gold-springbok-tux.cyclic.app/
+- use node fitnessAppServer.js to start program in terminal (program just directs you to link above)
 - app assumes name and email uniquely identify a member
 - the Fitness Calculator API from rapidapi.com only supports the inputs of male or female for calculations that involve gender
 
@@ -17,4 +17,3 @@ API Link(s):
 https://rapidapi.com/malaaddincelik/api/fitness-calculator/
 
 YouTube Demo Video:
-https://youtu.be/Ex1Gve22eLo

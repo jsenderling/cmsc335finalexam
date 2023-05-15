@@ -16,8 +16,8 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
 /* ********** Command line interpreter ********** */
 
-console.log(`Web server started and running at http://localhost:${portNumber}`);
-const prompt = "stop to shutdown the server: ";
+console.log(`Fitness app hosted at: https://rich-gold-springbok-tux.cyclic.app/`);
+const prompt = "stop to end node program (app still hosted by Cyclic though): ";
 process.stdout.write(prompt);
 process.stdin.on('readable', () => {
     let input = String(process.stdin.read());
@@ -25,7 +25,7 @@ process.stdin.on('readable', () => {
         let command = input.trim();
 
         if (command === "stop") {
-            console.log("Shutting down the server");
+            console.log("Node program ended locally");
             process.exit(0);
         } else {
             console.log(`Invalid Command: ${command}`);
