@@ -11,6 +11,7 @@ Notes:
 - use node fitnessAppServer.js PORT_NUMBER_HERE to start server
 - app assumes name and email uniquely identify a member
 - the Fitness Calculator API from rapidapi.com only supports the inputs of male or female for calculations that involve gender
+- render URL: https://cmsc335finalexam-jsenderling.onrender.com
 
 API Link(s):
 https://rapidapi.com/malaaddincelik/api/fitness-calculator/
