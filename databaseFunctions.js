@@ -31,6 +31,7 @@ async function getMember(client, databaseAndCollection, filter) {
     }
 }
 
+// delete
 async function removeMember(client, databaseAndCollection, filter) {
     let result;
 
